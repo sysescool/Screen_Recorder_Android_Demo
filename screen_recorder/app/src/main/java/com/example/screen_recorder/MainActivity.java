@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
             mMediaRecorder.setVideoSource(MediaRecorder.VideoSource.SURFACE);
             mMediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
             mVideoUrl = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) +
-                    new StringBuilder("/KoghterRecord-").append(new SimpleDateFormat("dd-MM-yyyy-hh_mm_ss")
+                    new StringBuilder("/Record-").append(new SimpleDateFormat("dd-MM-yyyy-hh_mm_ss")
                             .format(new Date())).append(".mp4").toString();
             mMediaRecorder.setOutputFile(mVideoUrl);
             mMediaRecorder.setVideoSize(DISPLAY_WIDTH, DISPLAY_HEIGHT);
