@@ -1,3 +1,7 @@
+# Caution
+This Repo Move to: https://github.com/sysescool/sysescoolDemo/tree/main/Android/ScreenRecorderAndroidDemo
+please send issue or PR to there.
+
 # Screen_Recorder_Android_Demo
 This is a demo for Screen Recorder in Android.
 
